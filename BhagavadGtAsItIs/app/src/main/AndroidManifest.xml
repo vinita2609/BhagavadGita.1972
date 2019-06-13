@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.viiniimevada.bhagavad_gtasitis">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/bgc"
+        android:supportsRtl="true"
+        android:icon="@mipmap/bgc"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SplashScreen"
+            android:theme="@style/AppTheme.NoActionBar">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+
+                <action android:name="android.intent.action.VIEW" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".DashboardActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+
+        </activity>
+        <activity android:name=".Book1.MainActivity" />
+        <activity
+            android:name=".Book2.Book2Pdf"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+
+        </activity>
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+
+        <meta-data
+            android:name="android.app.default_searchable"
+            android:value=".SearchResultsActivity" />
+
+        <activity
+            android:name=".Book1.ChapterTabActivity"
+            android:label="@string/title_activity_chapter_tab"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".GIFScreen"
+            android:theme="@style/AppTheme.NoActionBar">
+
+        </activity>
+    </application>
+
+</manifest>

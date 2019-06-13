@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <ImageView
+        android:id="@+id/read1"
+        android:layout_width="@dimen/_210sdp"
+        android:layout_height="@dimen/_203sdp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="@dimen/_30sdp"
+        android:layout_marginTop="@dimen/_50sdp"
+        android:src="@drawable/book1" />
+
+    <ImageView
+        android:id="@+id/read2"
+        android:layout_width="@dimen/_210sdp"
+        android:layout_height="@dimen/_203sdp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="@dimen/_60sdp"
+        android:layout_marginTop="@dimen/_250sdp"
+        android:src="@drawable/book2" />
+
+<!--
+
+    <ImageView
+        android:layout_width="162dp"
+        android:layout_height="204dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="78dp"
+        android:src="@drawable/bgc" />
+
+    <ImageView
+        android:layout_width="164dp"
+        android:layout_height="203dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="292dp"
+        android:src="@drawable/sbc" />
+
+
+
+-->
+
+</RelativeLayout>

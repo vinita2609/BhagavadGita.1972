@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_aboutapp"
+            android:icon="@drawable/ic_apps_black_24dp"
+            android:title="About App"/>
+    <item android:id="@+id/nav_dedicate"
+        android:icon="@drawable/ic_dedicate"
+        android:title="Dedication"/>
+ <!--   <item android:id="@+id/nav_foreword"
+        android:icon="@drawable/ic_foreword"
+        android:title="Foreword"/>-->
+    <item android:id="@+id/nav_intro"
+        android:icon="@drawable/ic_intro"
+        android:title="Introduction"/>
+        <item android:id="@+id/nav_review"
+            android:icon="@drawable/ic_pre"
+            android:title="Academic Reviews"/>
+      <!--  <item android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="Home"/>-->
+
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item android:id="@+id/nav_share"
+                android:icon="@drawable/ic_shareapp"
+                android:title="Share App"/>
+
+
+
+        </menu>
+
+    </item>
+
+
+
+</menu>

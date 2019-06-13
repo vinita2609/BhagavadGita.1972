@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="250dp"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:layout_alignBottom="@id/action_bar_title"
+        android:src="@drawable/open_book" />
+
+    <TextView
+        android:id="@+id/action_bar_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="21dp"
+        android:fontFamily="serif"
+        android:text="Chapters"
+        android:textColor="#ffffff"
+        android:textSize="30sp" />
+
+
+</RelativeLayout>
